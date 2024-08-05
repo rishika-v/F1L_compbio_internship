@@ -51,3 +51,17 @@ In our context, since we are addressing the applicability of therapies to a vari
 #### Resources
 - Trastuzumab, Cancer Research UK, [Page Link](https://www.cancerresearchuk.org/about-cancer/treatment/drugs/trastuzumab#:~:text=Trastuzumab%20is%20a%20type%20of,factor%20receptor%202%20(HER2))
 - Bevacizumab (Avastin), Cancer Research UK, [Page Link](https://www.cancerresearchuk.org/about-cancer/treatment/drugs/bevacizumab#:~:text=Bevacizumab%20is%20a%20type%20of,in%20combination%20with%20another%20drug)
+
+
+
+# Notes on Kinker et al
+
+#### How did the authors handle the potential caveat of co-culturing cell lines before profiling by scRNA-seq? Why do you think that caveat was or was not adequately addressed?
+
+#### The authors identified discrete subpopulations of cells within a subset of individual cell lines (Fig. 2A-B). What might be the reason why some cell lines have these discrete subpopulations while others do not?
+
+#### What are Recurrent Heterogeneous Programs (RHPs) and how were they defined?
+
+#### How do the identified RHPs relate to in vivo programs of heterogeneity in tumors, and what evidence supports this relationship?
+
+#### Where can you download the scRNA-seq data as shown in Figure 1B?
