@@ -3,9 +3,6 @@
 A [Figure One Lab (F1L)](https://github.com/deanslee/FigureOneLab) project: re-enacting Figure 1 of **Kinker et al. 2020**, *Pan-cancer single-cell RNA-seq identifies recurring programs of cellular heterogeneity* ([DOI: 10.1038/s41588-020-00726-6](https://doi.org/10.1038/s41588-020-00726-6)), then extending the analysis to ask whether the paper's cell-line scRNA-seq data supports expanding Trastuzumab (anti-HER2/ERBB2) or Bevacizumab (anti-VEGF) to cancer types beyond their current approvals.
 
 ## Repository structure
-
-- `data/` — not checked in (see [`data/README.md`](data/README.md) for how to fetch it).
-- `outs/` — generated `.h5ad` files and figures; not checked in, reproducible from the notebooks.
 - `01_build_anndata.ipynb` — parses the raw Kinker metadata + UMI count files into an AnnData object.
 - `02_qc_clustering.ipynb` — QC, normalization, clustering, and the Figure 1-style embedding colored by cancer type / cell line.
 - `03_erbb2_vegfa_exploration.ipynb` — the KSQ analysis: ERBB2/VEGFA/VEGFB expression across cancer types and cell lines, and follow-up questions raised by the data.
